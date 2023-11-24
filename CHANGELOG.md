@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.3.6 (2023-11-24)
+
+Full Changelog: [v1.3.5...v1.3.6](https://github.com/openai/openai-python/compare/v1.3.5...v1.3.6)
+
+### Bug Fixes
+
+* **client:** add support for streaming binary responses ([#866](https://github.com/openai/openai-python/issues/866)) ([b2b4239](https://github.com/openai/openai-python/commit/b2b4239bc95a2c81d9db49416ec4095f8a72d5e2))
+
+
+### Chores
+
+* **internal:** send more detailed x-stainless headers ([#877](https://github.com/openai/openai-python/issues/877)) ([339a7c8](https://github.com/openai/openai-python/commit/339a7c893a40fcb2e794b69d7afaa0e8583c3ef1))
+* revert binary streaming change ([#875](https://github.com/openai/openai-python/issues/875)) ([d598eff](https://github.com/openai/openai-python/commit/d598eff2c1cb83a68d0fb148cabcc103eb480cb4))
+
 ## 1.3.5 (2023-11-21)
 
 Full Changelog: [v1.3.4...v1.3.5](https://github.com/openai/openai-python/compare/v1.3.4...v1.3.5)
